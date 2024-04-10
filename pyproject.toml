@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "travelagent"
+version = "3.0"
+description = "Telegram bot for travel planning"
+authors = ["Albert <63642425+iamnalinor@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = {version = "^3.4.1", extras = ["fast", "i18n", "redis"]}
+aiogram-dialog = {version = "^2.1.0"}
+tortoise-orm = {extras = ["asyncpg"], version = "^0.20.0"}
+babel = "^2.13.1"
+emoji = "^2.10.1"
+aerich = "^0.7.2"
+osmpythontools = "^0.3.5"
+pytz = "^2024.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.8"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 80
+
+[tool.ruff]
+line-length = 80
+indent-width = 4
+target-version = "py312"
+exclude = ["migrations"]
+
+[tool.ruff.lint]
+select = ["E", "F", "UP", "B", "SIM", "I", "RET"]
+ignore = ["E501"]
+
+[tool.aerich]
+tortoise_orm = "travelagent.config.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."

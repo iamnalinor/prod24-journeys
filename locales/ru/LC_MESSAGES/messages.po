@@ -1,0 +1,467 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-03-26 08:48+0400\n"
+"PO-Revision-Date: 2024-03-26 08:50+0400\n"
+"Last-Translator: \n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.13.1\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: travelagent/misc.py:25 travelagent/misc.py:26
+msgid "‹ Back"
+msgstr "‹ Назад"
+
+#: travelagent/misc.py:27
+msgid "‹ Cancel"
+msgstr "‹ Отмена"
+
+#: travelagent/misc.py:29
+msgid ":house: Home"
+msgstr ":house: Домой"
+
+#: travelagent/utils.py:74
+msgid "The input seems to be invalid. Please, try again."
+msgstr "Неверный ввод. Пожалуйста, попробуйте ещё раз."
+
+#: travelagent/dialogs/confirm_join.py:29 travelagent/dialogs/start.py:65
+msgid "Invite code is invalid. Probably, it has expired or revoked."
+msgstr ""
+"Ссылка для вступления недействительна. Возможно, у неё истёк срок действия или "
+"её сбросили."
+
+#: travelagent/dialogs/confirm_join.py:40
+msgid "User {user.name} joined the journey"
+msgstr "{user.name} вступил в путешествие"
+
+#: travelagent/dialogs/confirm_join.py:65
+msgid ""
+"You're about to join the journey {journey.name} which has already {count} "
+"participants.\n"
+"\n"
+"You will receive an updates about the journey. Other participants will be "
+"notified about your join.\n"
+"You can leave the journey at any time.\n"
+"\n"
+"Do you want to join?"
+msgstr ""
+"Вы собираетесь присоединиться к путешествию {journey.name}, в котором уже есть "
+"{count} участников.\n"
+"\n"
+"Вы будете получать сообщения с информацией о путешествии. Другие участники "
+"получат уведомление о вашем присоединении.\n"
+"Вы можете покинуть путешествие в любой момент.\n"
+"\n"
+"Вы действительно хотите вступить?"
+
+#: travelagent/dialogs/confirm_join.py:72
+msgid "Yes, join"
+msgstr "Да, вступить"
+
+#: travelagent/dialogs/journey.py:71
+msgid "List of your journeys:"
+msgstr "Список ваших путешествий:"
+
+#: travelagent/dialogs/journey.py:74
+msgid ":plus: New journey"
+msgstr ":plus: Новое путешествие"
+
+#: travelagent/dialogs/journey.py:97
+msgid ":vertical_traffic_light: Journey {journey.name} › Review & edit"
+msgstr ""
+":vertical_traffic_light: Путешествие {journey.name} › Просмотр и редактирование"
+
+#: travelagent/dialogs/journey.py:103
+msgid ":Micronesia: Locations [{locations_count}]"
+msgstr ":Micronesia: Места [{locations_count}]"
+
+#: travelagent/dialogs/journey.py:110
+msgid ":notebook_with_decorative_cover: Notes [{notes_count}]"
+msgstr ":notebook_with_decorative_cover: Заметки [{notes_count}]"
+
+#: travelagent/dialogs/journey.py:116
+msgid "Participants [{users_count}]"
+msgstr "Участники [{users_count}]"
+
+#: travelagent/dialogs/journey.py:123
+msgid ":stop_sign: Delete journey"
+msgstr ":stop_sign: Удалить путешествие"
+
+#: travelagent/dialogs/journey.py:124
+msgid ":minus: Leave journey"
+msgstr ":minus: Выйти из путешествия"
+
+#: travelagent/dialogs/journey.py:139
+msgid ""
+"You are deleting journey {journey.name}. This action cannot be undone.\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"Вы удаляете путешествие {journey.name}. Это действие нельзя отменить.\n"
+"\n"
+"Вы уверены?"
+
+#: travelagent/dialogs/journey.py:146
+msgid ""
+"You are leaving journey {journey.name}. You can return back if you obtain an "
+"invite link again.\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"Вы выходите из путешествия {journey.name}. Вы сможете вернуться обратно, если "
+"получите ссылку на вступление снова.\n"
+"\n"
+"Вы уверены?"
+
+#: travelagent/dialogs/journey.py:156
+msgid "Yes, I'm sure"
+msgstr "Да, я уверен"
+
+#: travelagent/dialogs/journey_create.py:32
+msgid "This name is already taken. Try another one."
+msgstr ""
+"Это название уже выбрано для другого путешествия. Попробуйте что-нибудь ещё."
+
+#: travelagent/dialogs/journey_create.py:53
+msgid "Selected location: {name}. Press Back if there's an error."
+msgstr "Выбранное место: {name}. Вернитесь назад, если здесь есть ошибка."
+
+#: travelagent/dialogs/journey_create.py:79
+msgid "You can't choose a date in the past. Please, try again."
+msgstr "Вы не можете выбрать дату в прошлом. Пожалуйста, попробуйте еще раз."
+
+#: travelagent/dialogs/journey_create.py:93
+msgid "Departure date should be later than arrival date. Please, try again."
+msgstr ""
+"Дата отъезда должна быть позже даты прибытия. Пожалуйста, попробуйте еще раз."
+
+#: travelagent/dialogs/journey_create.py:126
+msgid ""
+"You've already added 20 locations. For performance reasons, you can't add "
+"more.\n"
+"\n"
+"You can create separate journey if you want to add more locations."
+msgstr ""
+"Вы уже добавили 20 локаций. В целях предотвращения проблем, вы не можете "
+"добавить больше.\n"
+"\n"
+"Вы можете создать отдельное путешествие, если хотите добавить больше мест для "
+"посещения."
+
+#: travelagent/dialogs/journey_create.py:138
+msgid "You've added location {name} for {delta}. How about another one?"
+msgstr "Вы добавили место {name} на срок {delta}. Хотите куда-то ещё?"
+
+#: travelagent/dialogs/journey_create.py:182
+msgid ""
+"Going somewhere? Let's :memo: organize everything.\n"
+"\n"
+"Enter the unique name of your journey:"
+msgstr ""
+"Куда-то собираетесь? Давайте все :memo: организуем.\n"
+"\n"
+"Введите название вашего путешествия:"
+
+#: travelagent/dialogs/journey_create.py:196
+msgid "Enter a brief description of your journey:"
+msgstr "Введите краткое описание вашего путешествия:"
+
+#: travelagent/dialogs/journey_create.py:198
+msgid "Skip"
+msgstr "Пропустить"
+
+#: travelagent/dialogs/journey_create.py:203
+msgid "Enter the name of location you want to visit:"
+msgstr "Введите название места, которое вы хотите посетить:"
+
+#: travelagent/dialogs/journey_create.py:205
+msgid ":check_mark_button: Done"
+msgstr ":check_mark_button: Готово"
+
+#: travelagent/dialogs/journey_create.py:218
+msgid ":airplane_arrival: Choose the arrival date of this location:"
+msgstr ""
+":airplane_arrival: Выберите дату, когда вы собираетесь приехать в это место:"
+
+#: travelagent/dialogs/journey_create.py:223
+msgid ":airplane_departure: Choose the departure date of this location:"
+msgstr ":airplane_departure: Выберите дату отъезда из этого места:"
+
+#: travelagent/dialogs/journey_create.py:241
+msgid "Now you're ready to go! Click the button below to create your journey."
+msgstr "Всё готово! Нажмите на кнопку ниже, чтобы создать ваше путешествие."
+
+#: travelagent/dialogs/journey_create.py:246
+msgid ":fire: Create journey"
+msgstr ":fire: Создать путешествие"
+
+#: travelagent/dialogs/journey_locations.py:118
+msgid ""
+"You can't delete this location as it's the only one in the journey. Consider "
+"adding another location or deleting the whole journey instead."
+msgstr ""
+"Вы не можете удалить эту локацию, поскольку она единственная в путешествии. "
+"Добавьте другое место или удалите всё путешествие."
+
+#: travelagent/dialogs/journey_locations.py:164
+msgid "Journey {journey.name} › Locations"
+msgstr "Путешествие {journey.name} › Список локаций"
+
+#: travelagent/dialogs/journey_locations.py:167
+msgid ":plus: Add location"
+msgstr ":plus: Добавить место"
+
+#: travelagent/dialogs/journey_locations.py:191
+msgid ""
+"Journey {journey.name} › Location {location.name}\n"
+"\n"
+"Arrival date: {start_date}\n"
+"Departure date: {end_date}\n"
+"Duration: {duration}\n"
+"\n"
+"Address: {location.address}"
+msgstr ""
+"Путешествие {journey.name} › Место {location.name}\n"
+"\n"
+"Дата приезда: {start_date}\n"
+"Дата отъезда: {end_date}\n"
+"Продолжительность: {duration}\n"
+"\n"
+"Адрес: {location.address}"
+
+#: travelagent/dialogs/journey_locations.py:200
+msgid ":sun_behind_small_cloud: Weather"
+msgstr ":sun_behind_small_cloud: Погода"
+
+#: travelagent/dialogs/journey_locations.py:204
+msgid "Open route to this location"
+msgstr "Маршрут до этого места"
+
+#: travelagent/dialogs/journey_locations.py:206
+msgid ":stop_sign: Delete location"
+msgstr ":stop_sign: Удалить место"
+
+#: travelagent/dialogs/journey_locations.py:216
+msgid ""
+"Are you sure you want to delete location {location.name} from journey {journey."
+"name}?\n"
+"You can always add it back."
+msgstr ""
+"Вы действительно хотите удалить локацию {location.name} из путешествия "
+"{journey.name}?\n"
+"Её всегда можно будет добавить обратно."
+
+#: travelagent/dialogs/journey_locations.py:223
+msgid "Yes, delete"
+msgstr "Да, удалить"
+
+#: travelagent/dialogs/journey_locations.py:234
+msgid "Journey {journey.name} › Location {location.name} > Weather forecast"
+msgstr "Путешествие {journey.name} › Список локаций › Прогноз погоды"
+
+#: travelagent/dialogs/journey_locations.py:248
+msgid ""
+"Weather data is available only for 5 days in future. Check back at several "
+"days before the arrival."
+msgstr ""
+"Прогноз погоды доступен только на 5 дней в будущем. Вернитесь за несколько "
+"дней перед датой приезда в город."
+
+#: travelagent/dialogs/journey_locations.py:254
+msgid "The location departure date is in the past, so no forecast is available."
+msgstr "Время отъезда в прошлом, поэтому прогноз погоды недоступен."
+
+#: travelagent/dialogs/journey_notes.py:8
+msgid "Journey notes"
+msgstr ""
+
+#: travelagent/dialogs/journey_users.py:119
+msgid "Journey {journey.name} › Participants"
+msgstr "Путешествие {journey.name} › Участники"
+
+#: travelagent/dialogs/journey_users.py:122
+msgid ":link: Invite user"
+msgstr ":link: Пригласить кого-то"
+
+#: travelagent/dialogs/journey_users.py:127
+msgid "Me [{user.name}]"
+msgstr "Я [{user.name}]"
+
+#: travelagent/dialogs/journey_users.py:149
+msgid "Open profile"
+msgstr "Открыть профиль"
+
+#: travelagent/dialogs/journey_users.py:153
+msgid ":name_badge: Kick from journey"
+msgstr ":name_badge: Удалить из путешествия"
+
+#: travelagent/dialogs/journey_users.py:164
+msgid ""
+"Are you sure you want to kick {user.name} from the journey {journey.name}?\n"
+"\n"
+"They will lose access to the journey and all its data. But they can rejoin if "
+"they will get the invite link again."
+msgstr ""
+"Вы действительно хотите исключить {user.name} из путешествия {journey.name}?\n"
+"\n"
+"Участник потеряет доступ к путешествию и ко всей его информации. Однако, он "
+"сможет вернуться, если получит ссылку на вступление."
+
+#: travelagent/dialogs/journey_users.py:172
+msgid ":name_badge: Kick"
+msgstr ":name_badge: Исключить"
+
+#: travelagent/dialogs/journey_users.py:183
+msgid ""
+":link: Invite another user to the journey.\n"
+"Share the link below with the user you want to invite.\n"
+"\n"
+"{invite_link}\n"
+"\n"
+"The link will expire at {expires_at}. The link can be used several times."
+msgstr ""
+":link: Вы можете пригласить кого-то в это путешествие.\n"
+"Поделитесь ссылкой с тем, кого вы хотели бы пригласить.\n"
+"\n"
+"{invite_link}\n"
+"\n"
+"Ссылка действительна до {expires_at}. Её можно использовать несколько раз."
+
+#: travelagent/dialogs/journey_users.py:192
+msgid "Revoke link"
+msgstr "Сбросить ссылку"
+
+#: travelagent/dialogs/register.py:26
+msgid "Please enter a valid age."
+msgstr "Пожалуйста, введите число."
+
+#: travelagent/dialogs/register.py:68
+msgid "Alright."
+msgstr "Хорошо."
+
+#: travelagent/dialogs/register.py:73
+msgid "Send location"
+msgstr "Отправить местоположение"
+
+#: travelagent/dialogs/register.py:106
+msgid "Area {name} has been set. If there's an error, return back and try again."
+msgstr ""
+"Установлено место {name}. Если это ошибка, вернитесь назад и попробуйте снова."
+
+#: travelagent/dialogs/register.py:116
+msgid ""
+"Welcome to Travel Agent!\n"
+"What is your age?"
+msgstr ""
+"Добро пожаловать в Travel Agent!\n"
+"Сколько вам лет?"
+
+#: travelagent/dialogs/register.py:123
+msgid ""
+"Write a short bio about yourself.\n"
+"For example: 23 y.o. designer from San Francisco. Big fan of traveling and "
+"photography."
+msgstr ""
+"Введите небольшое описание о себе.\n"
+"Например: 23 года, дизайнер из Санкт-Петербурга. Люблю путешествовать и "
+"заниматься фотосъемкой."
+
+#: travelagent/dialogs/register.py:130
+msgid "Copy from profile"
+msgstr "Взять из профиля"
+
+#: travelagent/dialogs/register.py:143
+msgid ""
+"Please select your home location. Either press the button below or type it "
+"in.\n"
+"\n"
+"This will be start point for your journeys."
+msgstr ""
+"Пожалуйста, выберите ваше местоположение. Нажмите на кнопку ниже или введите "
+"его в поле ввода.\n"
+"\n"
+"Это будет отправная точка для всех путешествий."
+
+#: travelagent/dialogs/register.py:157
+msgid ":party_popper: The registration is completed!"
+msgstr ":party_popper: Регистрация завершена!"
+
+#: travelagent/dialogs/register.py:158
+msgid "‹ Change location"
+msgstr "‹ Исправить местоположение"
+
+#: travelagent/dialogs/settings.py:64 travelagent/dialogs/start.py:116
+msgid ":gear: Settings"
+msgstr ":gear: Настройки"
+
+#: travelagent/dialogs/settings.py:66
+msgid "Change language"
+msgstr "Изменить язык"
+
+#: travelagent/dialogs/settings.py:71
+msgid "Change bio"
+msgstr "Изменить био"
+
+#: travelagent/dialogs/settings.py:77
+msgid "Change age"
+msgstr "Изменить возраст"
+
+#: travelagent/dialogs/settings.py:83
+msgid "Change home location"
+msgstr "Изменить местоположение"
+
+#: travelagent/dialogs/settings.py:92
+msgid ":white_flag: Choose your language:"
+msgstr ":white_flag: Выберите язык:"
+
+#: travelagent/dialogs/start.py:51
+msgid ""
+"Language has been set to {locale.flag} {locale.name}. You can change it in /"
+"settings."
+msgstr ""
+"Установлен язык {locale.flag} {locale.name}. Вы можете изменить его в /"
+"settings."
+
+#: travelagent/dialogs/start.py:71
+msgid "You have already joined this journey."
+msgstr "Вы уже вступили в это путешествие."
+
+#: travelagent/dialogs/start.py:109
+msgid "Hello, {event.from_user.first_name}!"
+msgstr "Привет, {event.from_user.first_name}!"
+
+#: travelagent/dialogs/start.py:111
+msgid ":earth_africa: Journeys"
+msgstr ":earth_africa: Путешествия"
+
+#: travelagent/services/journey.py:56
+msgid "Show menu"
+msgstr "Показать меню"
+
+#: travelagent/services/osm.py:14
+msgid "Failed to find the area. Try again later"
+msgstr "Во время определения локации произошла ошибка. Попробуйте позднее"
+
+#: travelagent/services/osm.py:20
+msgid "No such area found. Try specifying more general query."
+msgstr "Место не найдено. Попробуйте задать более общий запрос."
+
+#: travelagent/services/osm.py:26
+msgid ""
+"Too many areas found. Try specifying more precise query (e.g. add the country "
+"name)."
+msgstr ""
+"Найдено более 5 мест. Попробуйте задать более точный запрос (например, "
+"добавить название страны)."
